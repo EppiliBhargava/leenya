@@ -33,13 +33,18 @@
             pointer-events: none;
         }
         .image-wrapper {
-            width: auto;
-            max-width: 800px;
-            margin: 20px;
-            background-color: white;
-            padding: 20px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 0; /* Remove padding */
+    background: none; /* Remove white background */
+    box-shadow: none; /* Remove shadow */
+}
+
+
         img {
             display: block;
             max-width: 442px;
